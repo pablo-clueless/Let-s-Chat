@@ -42,7 +42,7 @@ const Chatroom = () => {
       </main>
       <form onSubmit={sendMessage}>
         <input type="text" value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice..."/>
-        <button type='submit' disabled={!formValue}><FaPaperPlane /></button>
+        <button type='submit' disabled={!formValue}><FaPaperPlane className='icon'/></button>
       </form>
       </>
     )

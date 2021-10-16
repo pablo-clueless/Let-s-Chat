@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 
 :root {
-  --primary: #a885ac;
-  --background: #d1d8eb;
-  --send-button: #c160d2;
+  --primary: #006582;
+  --background: #d5f4ff;
   --button: #6d75e9;
-  --sent: #daafdf;
+  --sent: #c88cc0;
   --recieved: #ff788d;
-  --text-color: #2a272a;
 }
 
 /* .dark-mode {
@@ -40,7 +38,7 @@ body{
   background: var(--primary);
   height: 10vh;
   min-height: 50px;
-  color: var(--text-color);
+  color: #fff;
   position: fixed;
   width: 100%;
   top: 0;
@@ -96,8 +94,7 @@ form{
 
 form button{
   width: 20%;
-  background: var(--send-button);
-  color: var(--background);
+  background: var(--background);
   border-radius: 0;
   padding: 15px 5px;
 }
@@ -117,12 +114,14 @@ button {
   background: var(--button);
   border: none;
   border-radius: 5px;
-  color: var(--text-color);
+  color: #fff;
   padding: 15px 32px;
   margin: 0 auto;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
   cursor: pointer;
 }
 
@@ -132,16 +131,19 @@ button:disabled{
 }
 
 .sign-in{
-  background: #00da61;
+  background: #000;
   color: #fff;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 10px auto;
+}
+
+.sign-in:hover{
+  transform: scale(.95);
 }
 
 .sign-out{
-  width: 30%;
+  width: 20%;
   background: #c00;
-  color: #fff;
   padding: 15px 5px;
   margin: 0;
 }
@@ -158,7 +160,7 @@ p {
   padding: 10px 20px;
   border: none;
   position: relative;
-  color: var(--text-color);
+  color: #fff;
   text-align: center;
 }
 
@@ -197,4 +199,9 @@ img{
   height: 40px;
   border-radius: 50%;
   margin: 2px 5px;
+}
+
+.icon{
+  font-size: 2rem;
+  color: var(--primary);
 }
