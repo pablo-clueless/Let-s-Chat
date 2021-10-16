@@ -38,7 +38,7 @@ const Chatroom = () => {
       <>
       <main>
         {messages && messages.map(msg => <ChatMessage key={msg.id} message={msg} />)}
-        <div ref={dummy}></div>
+        <div className="dummy" ref={dummy}></div>
       </main>
       <form onSubmit={sendMessage}>
         <input type="text" value={formValue} onChange={(e) => setFormValue(e.target.value)} placeholder="say something nice..."/>

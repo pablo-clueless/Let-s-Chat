@@ -2,6 +2,7 @@
 
 :root {
   --primary: #006582;
+  --secondary: #083c5c;
   --background: #d5f4ff;
   --button: #6d75e9;
   --sent: #c88cc0;
@@ -103,7 +104,8 @@ input {
   line-height: 1.5;
   width: 100%;
   min-height: 100px;
-  background: transparent;
+  background: var(--secondary);
+  color: #fff;
   outline: none;
   border: 1px solid var(--primary);
   padding: 0 10px;
@@ -204,4 +206,8 @@ img{
 .icon{
   font-size: 2rem;
   color: var(--primary);
+}
+
+.dummy{
+  height: 100px;
 }
