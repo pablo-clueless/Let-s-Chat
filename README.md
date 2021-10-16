@@ -12,4 +12,4 @@ The chatroom is like a group for now, working on p2p chats, emojis and multitmed
 If you find bugs in the code or suggestions for features, please raise a issue for it.
 
 ### Make it work ⚡
-Feel free to fork and work on it on you end.
+Feel free to fork and work on it on your end.
