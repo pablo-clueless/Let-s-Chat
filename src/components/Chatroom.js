@@ -31,7 +31,6 @@ const Chatroom = () => {
       });
   
       setFormValue('');
-      formValue('');
       dummy.current.scrollIntoView({behavior: 'smooth'})
     }
   
