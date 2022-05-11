@@ -167,12 +167,13 @@ p {
 }
 
 .message {
-  width: 50%;
+  width: 40%;
   min-width: 100px;
   display: flex;
   align-items: center;
   margin: 5px 0;
   border-radius: 5px;
+  position: relative;
 }
 
 .sent {
@@ -194,6 +195,23 @@ p {
 
 .recieved p {
   background: transparent;
+}
+
+.delete{
+  color: #c00;
+  cursor: pointer;
+}
+
+.sent > .delete {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+}
+
+.recieved > .delete {
+  position: absolute;
+  top: 5%;
+  right: 3%;
 }
 
 img{
